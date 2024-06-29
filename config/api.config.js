@@ -23,7 +23,7 @@ module.exports = {
   // authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
   // driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
   authApi: "https://login.partner.microsoftonline.cn/common/oauth2/v2.0/token",
-  driveApi: "https://microsoftgraph.chinacloudapi.cn/v1.0/me/drive"
+  driveApi: "https://microsoftgraph.chinacloudapi.cn/v1.0/me/drive",
 
   // The scope we require are listed here, in most cases you would not need to change this as well.
   scope: 'user.read files.read.all offline_access',
